@@ -239,15 +239,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <!--        <TextView-->
-        <!--            android:id="@+id/textView18"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:text="Crypto activities"-->
-        <!--            android:textAlignment="center"-->
-        <!--            android:textColor="@color/white"-->
-        <!--            android:textSize="18sp" />-->
-
         <TextView
             android:id="@+id/textView13"
             android:layout_width="154dp"
@@ -262,7 +253,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycle_view"
             android:layout_width="match_parent"
-            android:layout_height="260dp" />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
